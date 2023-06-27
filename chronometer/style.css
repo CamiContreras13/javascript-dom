@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(./img/time.avif) no-repeat center center/cover;
+}
+.first-container{
+  width: 80vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.container-buttons{
+  padding:20px;
+}
+#chronometer{
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  user-select: none;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+.button{
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+#button-start-pause.start, 
+#button-start-pause.start i{
+  background-color: #207d20;
+}
+#button-start-pause.pause,
+#button-start-pause.pause i{
+  background-color: #ffdc00;
+}
+#button-restart{
+  background-color: rgb(223, 63, 63);
+}
