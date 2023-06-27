@@ -32,8 +32,32 @@ buttonStartPause.addEventListener('click', function(){
     if(chronometerStatus === 'paused' ){
         timeInterval = window.setInterval(updateChronometer,1000);
         buttonStartPause.innerHTML = '<i class="bi bi-pause-fill"></i>';
-        buttonStartPause
+        buttonStartPause.classList.remove('start');
+        buttonStartPause.classList.add('pause');
+        chronometerStatus = 'move';
     } else {
+        window.clearInterval(timeInterval);
+        buttonStartPause.innerHTML = '<i class="bi bi-play-fill"></i>';
+        buttonStartPause.classList.remove('pause');
+        buttonStartPause.classList.add('start');
+        chronometerStatus = 'paused';
+    };
+});
 
-    }
+buttonReStart.addEventListener('click', function(){
+    window.clearInterval(timeInterval);
+
+    hours = 0;
+    minuts = 0;
+    seconds = 0;
+
+    chronometer.innerText = '00:00:00';
+
+    buttonStartPause.innerHTML = '<i class="bi bi-play-fill"></i>';
+    buttonStartPause.classList.remove('pause');
+    buttonStartPause.classList.add('start');
+
+    chronometerStatus = 'paused';
+
+
 });
