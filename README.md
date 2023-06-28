@@ -6,3 +6,5 @@
     ### 🚀 Link to see it: https://clever-eclair-d9d76b.netlify.app/
 3. **random-dating:** random dating generator by clicking the button.
     ### 🚀 Link to see it: https://flourishing-phoenix-641d9f.netlify.app/
+4. **cronómetro**: with play, pause and reset options.
+   ### 🚀 Link to see it: https://symphonious-sfogliatella-6f2360.netlify.app/
