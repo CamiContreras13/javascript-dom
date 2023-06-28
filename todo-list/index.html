@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
     <title>Todo List ✅</title>
 </head>
 <body>
-    <main class="container">
-        <h1>Todo List 📝</h1>
-        <input type="text" id="enter-task" placeholder="Enter one task">
-        <button type="submit">Create Task</button>
-        <div class="task-list">
-            <!--Tasks-->
-        </div>
-    </main>
-    <script src="./app.js"></script>
-</body>
+    <div class="contenedor">
+      <h1>ToDo List 📝</h1>
+      <input id="ingresar-tarea" placeholder="Enter one task">
+      <button type="submit">Create Task</button>
+      <div id="lista-de-tareas">
+        <!-- Tareas -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
