@@ -1,2 +1,2 @@
-# Hello ! 👋🏽
-## In this first project, I worked on the DOM, making a random hex color generator. 👩🏽‍💻🌈
+# RANDOM COLOR 🌈
+## 🚀 https://glittering-semifreddo-4b76ba.netlify.app/
