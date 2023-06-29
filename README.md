@@ -8,3 +8,5 @@
     ### 🚀 Link to see it: https://flourishing-phoenix-641d9f.netlify.app/
 4. **cronómetro**: with play, pause and reset options.
    ### 🚀 Link to see it: https://symphonious-sfogliatella-6f2360.netlify.app/
+5. **todo-list**: task application that allows adding, marking as done and deleting each one.
+   ### 🚀 Link to see it: https://starlit-bombolone-f9bcdb.netlify.app/
